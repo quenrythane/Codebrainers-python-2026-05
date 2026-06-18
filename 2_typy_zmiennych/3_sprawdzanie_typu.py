@@ -38,4 +38,3 @@ print("wynik3:", wynik3)
 wynik5 = "-" * 100
 print("wynik5:", wynik5, type(wynik5))
 
-
