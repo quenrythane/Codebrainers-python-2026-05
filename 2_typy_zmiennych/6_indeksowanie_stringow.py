@@ -22,3 +22,23 @@ print(word[2:])  # Jeżeli chcemy do konca to możeme nie podawać indeksu stop
 print("yth:", word[1:4])
 print(word[4:1])  # tu zrobiliśmy źle - bo indeks start musi być mniejszty niż indeks stop
 print(word[-3:])
+
+"""wycianie ciąg znaków z krokiem"""
+word = 'Python'
+# word[start:stop:step]
+print(word[0:4:2])  # co drugi
+print(word[::-1])  # odwrotna kolejnosc
+print(word[::-2])  # odwrotna kolejnosc
+
+
+# print(word[0:4:-1])  # odwrotna kolejnosc
+# Pyth => htyP
+sliced_word = word[0:4]  # Pyth
+print(sliced_word[::-1])  # htyP
+print(word[3::-1])
+
+
+
+
+
+
