@@ -1,4 +1,8 @@
-liczba = input("Podaj liczbę: ") # "dwa"
+liczba = input("Podaj liczbę: ") # "dwa"  "2"
+
+# liczba = int(liczba)
+# print(f"{liczba} jest typu {type(liczba)}")
+
 
 try:
     liczba = int(liczba)
@@ -6,11 +10,11 @@ try:
 except ValueError:  # wykona się tylko wtedy gdy liniji try zwróciły by błąd
     print("Wprowadzona wartość nie jest liczbą")
 
-waga_bagażu = 0
-try:   # if program może wykonać się poprawnie bez błedu
-    waga_bagażu < 50
-    print("wyoknuje kod try")
-except:  # else jeśli program zwróci błąd
-    print("Błąd - niewłaściwa waga")
+# waga_bagażu = 0
+# try:   # if program może wykonać się poprawnie bez błedu
+#     waga_bagażu < 50
+#     print("wyoknuje kod try")
+# except:  # else jeśli program zwróci błąd
+#     print("Błąd - niewłaściwa waga")
 
 print("koniec progarmu")
