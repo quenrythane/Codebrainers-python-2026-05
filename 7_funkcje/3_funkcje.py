@@ -10,7 +10,9 @@ def przygotuj_herbate(rodzaj_herbaty, nazwa_kubka, ilość_wody_w_mililitrach=20
     print(f"Wsyp herbatę {rodzaj_herbaty} do {nazwa_kubka}")
     print("Poczekaj aż się zaparzy")
     print(f"Twoja {rodzaj_herbaty} herbata jest gotowa\n\n")
-    
+    return rodzaj_herbaty, nazwa_kubka, ilość_wody_w_mililitrach
+
+
 
 # parametr vs argument
 
